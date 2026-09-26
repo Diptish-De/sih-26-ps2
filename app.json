@@ -1,22 +1,35 @@
 {
   "expo": {
-    "name": "expo_scaffold",
-    "slug": "expo_scaffold",
+    "name": "KSHEER-RAKSHAK",
+    "slug": "ksheer-rakshak",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "primaryColor": "#0F382A",
+    "splash": {
+      "backgroundColor": "#0F382A",
+      "resizeMode": "contain"
+    },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "org.sih26109.ksheerrakshak"
     },
     "android": {
+      "package": "org.sih26109.ksheerrakshak",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#0F382A",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "BLUETOOTH",
+        "BLUETOOTH_ADMIN"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
