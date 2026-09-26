@@ -6,7 +6,7 @@ const cows=[
  {id:42,name:'Ganga',breed:'Sahiwal',risk:82,band:'High',quarter:'Left rear',trend:'+18%',scc:'Rising',temp:'+1.8°C',activity:'−18%',last:'Today, 06:40'},
  {id:17,name:'Lakshmi',breed:'Gir',risk:61,band:'Moderate',quarter:'Right front',trend:'+9%',scc:'Watch',temp:'+0.9°C',activity:'−7%',last:'Today, 06:35'},
  {id:31,name:'Radha',breed:'HF Cross',risk:34,band:'Low',quarter:'—',trend:'+2%',scc:'Normal',temp:'+0.2°C',activity:'+1%',last:'Today, 06:31'},
- {id:08,name:'Kamdhenu',breed:'Sahiwal',risk:18,band:'Low',quarter:'—',trend:'−3%',scc:'Normal',temp:'−0.1°C',activity:'+4%',last:'Today, 06:27'},
+ {id:8,name:'Kamdhenu',breed:'Sahiwal',risk:18,band:'Low',quarter:'—',trend:'−3%',scc:'Normal',temp:'−0.1°C',activity:'+4%',last:'Today, 06:27'},
  {id:55,name:'Nandini',breed:'Murrah',risk:74,band:'High',quarter:'Right rear',trend:'+15%',scc:'Rising',temp:'+1.4°C',activity:'−12%',last:'Today, 06:21'}
 ];
 const alerts=[
